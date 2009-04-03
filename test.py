@@ -24,3 +24,5 @@ if len(spans) != 0:
 		ticket = string[span[0]:span[1]]
 		ticket_id = regex.findall(ticket)
 		print "%s" % (ticket_id)
+
+print "Blah blah blah... This is another commit on the new branch"
